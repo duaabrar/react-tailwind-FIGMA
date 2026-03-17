@@ -39,34 +39,34 @@ export default function Hero() {
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="relative w-full max-w-[536px] h-[371px] sm:h-[380px] lg:h-[400px] order-1 lg:order-2">
+        <div className="relative w-full h-[280px] sm:h-[380px] lg:h-[400px] order-1 lg:order-2">
 
          <img
   src={semicircle}
   alt="background shape"
-  className="absolute right-10 mt-29 lg:mt-0 lg:top-0 w-[224.29px] h-[224.29px]  z-10 sm:w-[373px] sm:h-[373px] sm:z-10 md:bottom-0"
+  className="absolute right-3 mt-10 lg:mt-0 lg:top-0 w-[224.29px] h-[224.29px]  z-10 sm:w-[373px] sm:h-[373px] sm:z-10 md:bottom-0 md:right-25 lg:right-0"
 />
           {/* cards */}
 
-          <div className="absolute w-[142px] h-[62px] top-33 left-15 md:left-25 sm:top-8 sm:left-28 sm:w-[180px] sm:h-[87px] bg-white shadow-lg rounded-[20px] p-1 sm:p-3 lg:left-24 z-20 ">
+          <div className="absolute w-[142px] h-[62px] top-15 left-21 md:left-68 sm:top-8 sm:left-26 sm:w-[180px] sm:h-[87px] bg-white shadow-lg rounded-[20px] p-1 sm:p-3 lg:left-63 z-20 ">
             <p className="text-[10px] sm:text-[12px] text-black font-bold ">Quantum Processing</p>
             <h3 className="text-[#693B93] text-[16px] font-bold  sm:text-[24px]">99.9%</h3>
             <p className="text-[10px] sm:text-xs text-gray-400">Accuracy Rate</p>
           </div>
 
-          <div className="absolute top-50 right-22 w-[113px] h-[61px] sm:top-35 sm:right-28 sm:w-[180px] sm:h-[87px] bg-white shadow-lg rounded-[20px] p-1 sm:p-3 lg:right-38 z-20 ">
+          <div className="absolute top-31 right-20 w-[113px] h-[61px] sm:top-35 md:right-50 sm:right-28 sm:w-[180px] sm:h-[87px] bg-white shadow-lg rounded-[20px] p-1 sm:p-3 lg:right-30 z-20 ">
             <p className="text-[10px] sm:text-sm text-black font-bold">Performance</p>
             <h3 className="text-[#693B93] text-[16px] font-bold  sm:text-[25px]">1000x</h3>
             <p className="text-[10px] sm:text-xs text-gray-400">Faster Analysis</p>
           </div>
 
-          <div className="absolute bottom-26 left-[-1px] w-[138px] h-[61px] sm:bottom-37 sm:left-1 bg-white sm:w-[213px] sm:h-[87px] shadow-lg rounded-[20px] p-1 sm:p-3 lg:left-[-30px] z-20">
+          <div className="absolute bottom-19 left-[2px] w-[138px] h-[61px] sm:bottom-37 sm:left-1 bg-white sm:w-[213px] sm:h-[87px] md:left-37 md:bottom-29 shadow-lg rounded-[20px] p-1 sm:p-3 lg:left-30 lg:bottom-38 z-20">
             <p className="text-[10px] sm:text-[12px] text-black font-bold ">Security</p>
             <h3 className="text-[#693B93] text-[16px] font-bold  sm:text-[25px] lg:text-[25px]">Bank-Grade</h3>
             <p className="text-[10px] sm:text-xs text-gray-400 ">Encryption</p>
           </div>
 
-          <div className="absolute bottom-10 right-32 w-[113px] h-[61px] sm:bottom-12 sm:right-42 bg-white sm:w-[180px] sm:h-[87px] shadow-lg rounded-[20px] p-1 sm:p-3 lg:right-55 z-20">
+          <div className="absolute bottom-6 right-26 w-[113px] h-[61px] sm:bottom-12 sm:right-42 bg-white sm:w-[180px] sm:h-[87px] md:bottom-5 md:right-67 shadow-lg rounded-[20px] p-1 sm:p-3 lg:right-42 lg:bottom-14 z-20">
             <p className="text-[10px] sm:text-[12px] text-black font-bold">ROI Increase</p>
             <h3 className="text-[#693B93] text-[16px] font-bold sm:text-[25px]">+47%</h3>
             <p className="text-[10px] sm:text-xs text-gray-400">Average Boost</p>
@@ -74,12 +74,12 @@ export default function Hero() {
           <img
   src={dots}
   alt="background shape"
- className=" absolute top-69 left-8 w-[73.01px] h-[47.24] lg:left-10 lg:w-[120.78px] lg:h-[78.15px] "
+ className=" absolute top-50 left-14 w-[73.01px] h-[47.24] md:left-55 md:top-70  md:w-[120.78px] md:h-[78.15px]  lg:left-46 lg:top-67 lg:w-[120.78px] lg:h-[78.15px] "
 />
        <img
   src={vector}
   alt="background shape"
- className=" absolute right-70 top-34 w-[66.56px] h-[76.22px] lg:w-[110.12px] lg:h-[126.1px] lg:right-110  lg:top-[48px]  md:w-[110.12px] md:h-[126.1px] md:right-107 md:top-[38px] sm:right-105 sm:top-[38px] "
+ className=" absolute right-64 top-17 w-[66.56px] h-[76.22px]  lg:w-[139.12px] lg:h-[126.1px] lg:right-102  lg:top-[40px]  md:w-[110.12px] md:h-[136.1px] md:right-125 md:top-12 sm:right-105 sm:top-[38px] "
 />
         </div>
       </div>
