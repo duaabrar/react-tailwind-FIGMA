@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-sans: "Octarine", ui-sans-serif, system-ui, sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Octarine';
+  src: url('./assets/fonts/octarine.bold-oblique.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Octarine';
+  src: url('./assets/fonts/octarine.light.otf') format('opentype');
+  font-weight: normal;
+}
+
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
