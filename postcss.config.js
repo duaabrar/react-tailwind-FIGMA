@@ -1,6 +1,6 @@
 export default {
   plugins: {
-    '@tailwindcss/postcss': {}, // Naya plugin yahan aayega
+    '@tailwindcss/postcss': {},
     autoprefixer: {},
   },
 }
